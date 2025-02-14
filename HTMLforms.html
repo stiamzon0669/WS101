@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>HTMLFORMS (Tiamzon.S.P.)</title>
+</head>
+<body style="background-color: white">
+    <h1 style="color: orange;">How can we help?</h1>
+    <form>
+        <fieldset style="width: 90%;">
+            <legend style="color: blue;">Request for proposal</legend>
+            <table>
+                <tr>
+                    <td>Your name:</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>User name:</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td>Your Business:</td>
+                    <td><textarea cols="80" rows="10" placeholder="Briefly describe your business in this space" cols="70px"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Company size:</label></td>
+                    <td><input type="radio" name="Companysize" value="Lessthan10">
+                    <label for="Lessthan10">Less than 10</label></td>
+                </tr>
+                <tr>
+                    <td><label></label></td>
+                    <td><input type="radio" name="Companysize" value="11to50">
+                    <label for="11to50">11 to 50</label></td>
+                </tr>
+                <tr>
+                    <td><label></label></td>
+                    <td><input type="radio" name="Companysize" value="50to200">
+                    <label for="50to200">50 to 200</label></td>
+                </tr>
+                <tr>
+                    <td><label></label></td>
+                    <td><input type="radio" name="Companysize" value="Over 200">
+                    <label for="Over 200">Over 200</label></td>
+                </tr>
+                <tr>
+                    <td><label>Service:</label></td>
+                    <td><input type="checkbox" name="Service" value="BrandIdentity">
+                    <label for="BrandIdentity">Brand Identity</label>
+                    <input type="checkbox" name="Service" value="NewWebsite">
+                    <label for="NewWebsite">New Website</label>
+                    <input type="checkbox" name="Service" value="Webredesigner">
+                    <label for="Webredesigner">Web Redesigner</label></td>
+                </tr>
+                <tr>
+                    <td><label>Timeline:</label></td>
+                    <td><select name="timeline">
+                                <option>Immediately</option>
+                                <option>1-2 weeks</option>
+                                <option>3-6 weeks</option>
+                                <option>7-2 months</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="button" value="sendtodev\design">Send to dev\design</button></td>
+                </tr>
+            </table>
+
+        </fieldset>
+    </form>
+</body>
+</html>
